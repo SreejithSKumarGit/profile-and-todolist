@@ -1,4 +1,6 @@
 import Todolistchild from "./Todolistchild";
+import React from "react";
+
 export default function Todolist()
 {  const data=[
     { id: 1, title: "Wake up", status: true },
@@ -9,14 +11,9 @@ export default function Todolist()
 
     return (
         <>
-        {data.map((item)=>
-        {
-            return(
-            <>
-            <Todolistchild {...item} key={item.id}/>
-            </>
-            )
-        })}
+        {data.map((item)=> 
+        ( <Todolistchild {...item} key={item.id}/> )
+        )}
         </>
     );
 }
