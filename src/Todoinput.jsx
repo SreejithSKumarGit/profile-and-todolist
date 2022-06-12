@@ -34,12 +34,7 @@ function TodoInput({getTodos})
         onChange={(event)=>(
             
             setInput(event.target.value))} />
-        <input 
-        type="checkbox" 
-        checked={isChecked}
-        onChange={(event)=>
-        (setIsChecked(event.target.checked))}
-        />
+       
         <button onClick={setTodo}>Save</button>    
       </div>
         

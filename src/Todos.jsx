@@ -25,7 +25,7 @@ export default function Todos()
     return (
         <>
         <TodoInput getTodos={getTodos}/>
-        <Todolistchild todos={todos} />
+        <Todolistchild todos={todos} getTodos={getTodos} />
         </>
     );
 }

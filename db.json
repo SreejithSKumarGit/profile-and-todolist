@@ -27,12 +27,12 @@
     },
     {
       "title": "Buy Fruits",
-      "status": false,
+      "status": true,
       "id": 6
     },
     {
       "title": "Buy Vegetables",
-      "status": true,
+      "status": false,
       "id": 7
     },
     {
