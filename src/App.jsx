@@ -2,7 +2,7 @@
 import React from 'react';
 import './App.css';
 import Profile from './Profile';
-import Todolist from './Todolist';
+import Todos from './Todos';
 function App() {
   
   return (
@@ -11,7 +11,8 @@ function App() {
       {<Profile/>}
     </div>
     <div id='todoListContainer'>
-        {<Todolist/>}
+        
+        {<Todos/>}
     </div>
     </div>
   );

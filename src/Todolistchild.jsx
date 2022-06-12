@@ -1,10 +1,21 @@
 import React from "react"
-export default function Todolistchild(props,key)
+export default function Todolistchild({todos})
 {
     
     return (
-        <>
-        <h3 style={props.status?{color:"green"}:{color:"red"}}>{props.title}</h3>
-        </>
+        <div  
+        style={{
+            textAlign:"center"
+        }}>
+        {  
+            todos.map((item)=>
+            (
+               <div
+               key={item.id}>
+               <h3 style={item.status?{color:"green"}:{color:"red"}}>{item.title}</h3> 
+               </div>
+            ))
+        }
+        </div>
     )
 }

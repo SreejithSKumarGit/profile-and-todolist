@@ -1,0 +1,44 @@
+{
+  "todos": [
+    {
+      "title": "Buy Sugar",
+      "status": false,
+      "id": 1
+    },
+    {
+      "title": "Buy Wheat",
+      "status": false,
+      "id": 2
+    },
+    {
+      "title": "Code",
+      "status": false,
+      "id": 3
+    },
+    {
+      "title": "Code",
+      "status": false,
+      "id": 4
+    },
+    {
+      "title": "No coding",
+      "status": false,
+      "id": 5
+    },
+    {
+      "title": "Buy Fruits",
+      "status": false,
+      "id": 6
+    },
+    {
+      "title": "Buy Vegetables",
+      "status": true,
+      "id": 7
+    },
+    {
+      "title": "Buy Petrol",
+      "status": true,
+      "id": 8
+    }
+  ]
+}
